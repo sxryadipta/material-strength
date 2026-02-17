@@ -1,3 +1,5 @@
+# Preparing dataset
+
 import pandas as pd
 
 df = pd.read_csv("data/concrete.csv")
@@ -29,3 +31,6 @@ scaler = StandardScaler()
 
 X_train = scaler.fit_transform(X_train)
 X_test = scaler.transform(X_test)
+
+
+# Import Models + Metrics
